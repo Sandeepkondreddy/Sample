@@ -3,7 +3,7 @@
     <head>
         <title>User Login</title>
         <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
-        <link rel="stylesheet" type='text/css' href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type='text/css' href="bootstrap4/css/bootstrap.css">
         <link rel="stylesheet" type='text/css' href="css/loading.css">
         <link rel="stylesheet" type='text/css' href="css/login.css">
         <link rel="stylesheet" type='text/css' href="font-awesome/css/font-awesome.min.css">
@@ -74,7 +74,7 @@
                 $("#txtpassword").attr('disabled', true);
                 $.ajax({
                     type: "GET",
-                    url: "http://61.0.225.169/KPCTApi/api/Account/ValidateUser/" + $("#txtusername").val() + "/" + $("#txtpassword").val(),
+                    url: "http://61.0.225.169/KPCTSDS/api/Account/ValidateUser/" + $("#txtusername").val() + "/" + $("#txtpassword").val(),
                     data: '{}',
                     contentType: "application/json",
                     success: function(data) {
@@ -82,7 +82,7 @@
                             $("#hidusrid").val(data[0]);
                             $.ajax({
                                 type: "GET",
-                                url: "http://61.0.225.169/KPCTApi/api/Account/GetUserScreens/" + $("#hidusrid").val(),
+                                url: "http://61.0.225.169/KPCTSDS/api/Account/GetUserScreens/" + $("#hidusrid").val(),
                                 data: '{}',
                                 contentType: "application/json",
                                 success: function(result) {
