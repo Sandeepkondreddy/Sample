@@ -44,7 +44,7 @@
     <gap:plugin name="org.apache.cordova.network-information"/>
     <gap:plugin name="org.apache.cordova.splashscreen"/>
     <gap:plugin name="org.apache.cordova.vibration"/>
-    <plugin name="cordova-plugin-whitelist" version="1"/>
+
 
 
 
