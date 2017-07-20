@@ -48,7 +48,6 @@
     <plugin name="com.simonmacdonald.telephonenumber" source="pgb" />
     <plugin name="com.sharinglabs.cordova.plugin.cache" source="pgb" />
     <plugin name="com.cordova.plugins.sms" spec="0.1.1" source="pgb" />
-    <gap:plugin name="org.apache.cordova.geolocation"/>
 
 
     <plugin name="com.joandilee.imeiplugin" source="pgb" />-->
