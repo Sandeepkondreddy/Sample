@@ -50,7 +50,7 @@
     <plugin name="com.cordova.plugins.sms" spec="0.1.1" source="pgb" />
     <gap:plugin name="org.apache.cordova.geolocation"/>
     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
-    <plugin spec="https://github.com/hypery2k/cordova-barcodescanner-plugin.git" source="git" />
+   
     <gap:plugin name="com.phonegap.plugin.statusbar" />
     <plugin name="com.joandilee.imeiplugin" source="pgb" />-->
 
