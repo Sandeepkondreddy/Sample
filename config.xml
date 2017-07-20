@@ -46,7 +46,6 @@
     <gap:plugin name="org.apache.cordova.vibration"/>
     <plugin name="cordova-plugin-whitelist" version="1"/>
     <plugin name="com.simonmacdonald.telephonenumber" source="pgb" />
-    <plugin name="com.sharinglabs.cordova.plugin.cache" source="pgb" />
 
 
     <plugin name="com.joandilee.imeiplugin" source="pgb" />-->
