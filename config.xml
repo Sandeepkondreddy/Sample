@@ -39,8 +39,7 @@
     <gap:plugin name="org.apache.cordova.file"/>
     <gap:plugin name="org.apache.cordova.file-transfer"/>
     <gap:plugin name="org.apache.cordova.globalization"/>
-    
-    <plugin name="com.joandilee.imeiplugin" source="pgb" />-->
+        <plugin name="com.joandilee.imeiplugin" source="pgb" />-->
 
     <plugin name="cordova-plugin-barcodescanner" source="npm" />
     <plugin name="cordova-plugin-battery-status" source="npm" />
