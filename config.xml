@@ -34,7 +34,7 @@
     <gap:plugin name="org.apache.cordova.contacts"/>
     <gap:plugin name="org.apache.cordova.device"/>
     <gap:plugin name="org.apache.cordova.device-motion"/>
-    <gap:plugin name="org.apache.cordova.device-orientation"/>
+    
     
                <plugin name="com.joandilee.imeiplugin" source="pgb" />-->
 
