@@ -34,7 +34,6 @@
     <gap:plugin name="org.apache.cordova.contacts"/>
     <gap:plugin name="org.apache.cordova.device"/>
 
-
                <plugin name="com.joandilee.imeiplugin" source="pgb" />-->
 
     <plugin name="cordova-plugin-barcodescanner" source="npm" />
